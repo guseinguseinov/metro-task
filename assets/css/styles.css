@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(bura ozunuz link qoyarsiz); */
+    height: 100vh;
+}
+
+#login-form {
+    background-color: #b6d3fb;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-color: #0e4b77;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.header {
+    color: #fff;
+    font-size: 20px;
+}
+
+.username-div {
+    background-color: #0e4b77;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.username-logo {
+    width: 24px;
+    height: 24px;
+}
+
+#username {
+    background-color: #0e4b77;
+    border: 0px;
+    color: #fff;
+    width: 100%;
+}
+
+.password-div {
+    background-color: #0e4b77;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#password {
+    background-color: #0e4b77;
+    border: 0px;
+    color: #fff;
+    width: 100%;
+}
+
+.submit-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submit-button {
+    width: 100px;
+    background-color: #0e4b77;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
